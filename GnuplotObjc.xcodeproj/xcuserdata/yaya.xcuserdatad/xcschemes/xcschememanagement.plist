@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GnuplotObjc.xcscheme</key>
+		<key>Exemple.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>libGnuplotObjc.xcscheme</key>
+		<key>GnuPlotObjc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -17,6 +17,36 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>780E95B4148BBE720073BCA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780E95C3148BBED90073BCA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780E95D2148BBF170073BCA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780E95E3148BBFC00073BCA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780E95F7148BC06F0073BCA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780E960B148BC1B60073BCA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>780F14AB148B7D3F0001518E</key>
 		<dict>
 			<key>primary</key>

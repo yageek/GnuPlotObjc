@@ -13,9 +13,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7858E13F148AEF8F0088D3D0"
-               BuildableName = "GnuplotObjc"
-               BlueprintName = "exemple"
+               BlueprintIdentifier = "780E95F7148BC06F0073BCA1"
+               BuildableName = "libGnuPlotObjc.a"
+               BlueprintName = "GnuPlotObjc"
                ReferencedContainer = "container:GnuplotObjc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,40 +28,15 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7858E13F148AEF8F0088D3D0"
-            BuildableName = "GnuplotObjc"
-            BlueprintName = "exemple"
-            ReferencedContainer = "container:GnuplotObjc.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7858E13F148AEF8F0088D3D0"
-            BuildableName = "GnuplotObjc"
-            BlueprintName = "exemple"
-            ReferencedContainer = "container:GnuplotObjc.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "PATH"
-            value = "$PATH"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -71,15 +46,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7858E13F148AEF8F0088D3D0"
-            BuildableName = "GnuplotObjc"
-            BlueprintName = "exemple"
-            ReferencedContainer = "container:GnuplotObjc.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

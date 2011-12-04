@@ -7,67 +7,253 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7858E145148AEF8F0088D3D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7858E144148AEF8F0088D3D0 /* Foundation.framework */; };
-		7858E148148AEF8F0088D3D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7858E147148AEF8F0088D3D0 /* main.m */; };
-		7858E154148AEFAD0088D3D0 /* GnuplotSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7858E153148AEFAD0088D3D0 /* GnuplotSession.m */; };
-		78FA484E148BB22900C76909 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FA484D148BB22900C76909 /* Cocoa.framework */; };
+		780E95F9148BC0700073BCA1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FA484D148BB22900C76909 /* Cocoa.framework */; };
+		780E9606148BC0D50073BCA1 /* GnuplotSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 780E9604148BC0D50073BCA1 /* GnuplotSession.h */; };
+		780E9607148BC0D50073BCA1 /* GnuplotSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 780E9605148BC0D50073BCA1 /* GnuplotSession.m */; };
+		780E960E148BC1B60073BCA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7858E144148AEF8F0088D3D0 /* Foundation.framework */; };
+		780E9611148BC1B60073BCA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 780E9610148BC1B60073BCA1 /* main.m */; };
+		780E9615148BC1B60073BCA1 /* Exemple.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 780E9614148BC1B60073BCA1 /* Exemple.1 */; };
+		780E9619148BC45C0073BCA1 /* libGnuPlotObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 780E95F8148BC06F0073BCA1 /* libGnuPlotObjc.a */; };
+		780E9653148BC9EA0073BCA1 /* jquery.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E962B148BC9E90073BCA1 /* jquery.js */; };
+		780E9654148BC9EA0073BCA1 /* all_64.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9631148BC9E90073BCA1 /* all_64.js */; };
+		780E9655148BC9EA0073BCA1 /* all_65.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9633148BC9E90073BCA1 /* all_65.js */; };
+		780E9656148BC9EA0073BCA1 /* all_67.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9635148BC9E90073BCA1 /* all_67.js */; };
+		780E9657148BC9EA0073BCA1 /* all_69.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9637148BC9E90073BCA1 /* all_69.js */; };
+		780E9658148BC9EA0073BCA1 /* all_73.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9639148BC9E90073BCA1 /* all_73.js */; };
+		780E9659148BC9EA0073BCA1 /* classes_67.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E963B148BC9E90073BCA1 /* classes_67.js */; };
+		780E965A148BC9EA0073BCA1 /* functions_64.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E963E148BC9E90073BCA1 /* functions_64.js */; };
+		780E965B148BC9EA0073BCA1 /* functions_65.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9640148BC9E90073BCA1 /* functions_65.js */; };
+		780E965C148BC9EA0073BCA1 /* functions_67.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9642148BC9E90073BCA1 /* functions_67.js */; };
+		780E965D148BC9EA0073BCA1 /* functions_69.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9644148BC9E90073BCA1 /* functions_69.js */; };
+		780E965E148BC9EA0073BCA1 /* functions_73.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9646148BC9E90073BCA1 /* functions_73.js */; };
+		780E965F148BC9EA0073BCA1 /* search.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E964A148BC9E90073BCA1 /* search.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7858E13E148AEF8F0088D3D0 /* CopyFiles */ = {
+		780E960A148BC1B60073BCA1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				780E9615148BC1B60073BCA1 /* Exemple.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7858E140148AEF8F0088D3D0 /* GnuplotObjc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GnuplotObjc; sourceTree = BUILT_PRODUCTS_DIR; };
+		780E95F8148BC06F0073BCA1 /* libGnuPlotObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGnuPlotObjc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		780E95FC148BC0700073BCA1 /* GnuPlotObjc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GnuPlotObjc-Prefix.pch"; sourceTree = "<group>"; };
+		780E9604148BC0D50073BCA1 /* GnuplotSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GnuplotSession.h; path = GnuplotObjc/GnuplotSession.h; sourceTree = SOURCE_ROOT; };
+		780E9605148BC0D50073BCA1 /* GnuplotSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GnuplotSession.m; path = GnuplotObjc/GnuplotSession.m; sourceTree = SOURCE_ROOT; };
+		780E960C148BC1B60073BCA1 /* Exemple */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exemple; sourceTree = BUILT_PRODUCTS_DIR; };
+		780E9610148BC1B60073BCA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		780E9613148BC1B60073BCA1 /* Exemple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exemple-Prefix.pch"; sourceTree = "<group>"; };
+		780E9614148BC1B60073BCA1 /* Exemple.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Exemple.1; sourceTree = "<group>"; };
+		780E961B148BC9E90073BCA1 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		780E961D148BC9E90073BCA1 /* _gnuplot_session_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = _gnuplot_session_8h_source.html; sourceTree = "<group>"; };
+		780E961E148BC9E90073BCA1 /* annotated.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = annotated.html; sourceTree = "<group>"; };
+		780E961F148BC9E90073BCA1 /* bc_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_s.png; sourceTree = "<group>"; };
+		780E9620148BC9E90073BCA1 /* class_gnuplot_session-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = "class_gnuplot_session-members.html"; sourceTree = "<group>"; };
+		780E9621148BC9E90073BCA1 /* classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = classes.html; sourceTree = "<group>"; };
+		780E9622148BC9E90073BCA1 /* closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closed.png; sourceTree = "<group>"; };
+		780E9623148BC9E90073BCA1 /* doxygen.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = doxygen.css; sourceTree = "<group>"; };
+		780E9624148BC9E90073BCA1 /* doxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doxygen.png; sourceTree = "<group>"; };
+		780E9625148BC9E90073BCA1 /* files.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = files.html; sourceTree = "<group>"; };
+		780E9626148BC9E90073BCA1 /* functions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = functions.html; sourceTree = "<group>"; };
+		780E9627148BC9E90073BCA1 /* functions_func.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = functions_func.html; sourceTree = "<group>"; };
+		780E9628148BC9E90073BCA1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		780E9629148BC9E90073BCA1 /* installdox */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = installdox; sourceTree = "<group>"; };
+		780E962A148BC9E90073BCA1 /* interface_gnuplot_session.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = interface_gnuplot_session.html; sourceTree = "<group>"; };
+		780E962B148BC9E90073BCA1 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		780E962C148BC9E90073BCA1 /* nav_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_f.png; sourceTree = "<group>"; };
+		780E962D148BC9E90073BCA1 /* nav_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_h.png; sourceTree = "<group>"; };
+		780E962E148BC9E90073BCA1 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
+		780E9630148BC9E90073BCA1 /* all_64.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = all_64.html; sourceTree = "<group>"; };
+		780E9631148BC9E90073BCA1 /* all_64.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_64.js; sourceTree = "<group>"; };
+		780E9632148BC9E90073BCA1 /* all_65.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = all_65.html; sourceTree = "<group>"; };
+		780E9633148BC9E90073BCA1 /* all_65.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_65.js; sourceTree = "<group>"; };
+		780E9634148BC9E90073BCA1 /* all_67.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = all_67.html; sourceTree = "<group>"; };
+		780E9635148BC9E90073BCA1 /* all_67.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_67.js; sourceTree = "<group>"; };
+		780E9636148BC9E90073BCA1 /* all_69.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = all_69.html; sourceTree = "<group>"; };
+		780E9637148BC9E90073BCA1 /* all_69.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_69.js; sourceTree = "<group>"; };
+		780E9638148BC9E90073BCA1 /* all_73.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = all_73.html; sourceTree = "<group>"; };
+		780E9639148BC9E90073BCA1 /* all_73.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_73.js; sourceTree = "<group>"; };
+		780E963A148BC9E90073BCA1 /* classes_67.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = classes_67.html; sourceTree = "<group>"; };
+		780E963B148BC9E90073BCA1 /* classes_67.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = classes_67.js; sourceTree = "<group>"; };
+		780E963C148BC9E90073BCA1 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		780E963D148BC9E90073BCA1 /* functions_64.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = functions_64.html; sourceTree = "<group>"; };
+		780E963E148BC9E90073BCA1 /* functions_64.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_64.js; sourceTree = "<group>"; };
+		780E963F148BC9E90073BCA1 /* functions_65.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = functions_65.html; sourceTree = "<group>"; };
+		780E9640148BC9E90073BCA1 /* functions_65.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_65.js; sourceTree = "<group>"; };
+		780E9641148BC9E90073BCA1 /* functions_67.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = functions_67.html; sourceTree = "<group>"; };
+		780E9642148BC9E90073BCA1 /* functions_67.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_67.js; sourceTree = "<group>"; };
+		780E9643148BC9E90073BCA1 /* functions_69.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = functions_69.html; sourceTree = "<group>"; };
+		780E9644148BC9E90073BCA1 /* functions_69.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_69.js; sourceTree = "<group>"; };
+		780E9645148BC9E90073BCA1 /* functions_73.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = functions_73.html; sourceTree = "<group>"; };
+		780E9646148BC9E90073BCA1 /* functions_73.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_73.js; sourceTree = "<group>"; };
+		780E9647148BC9E90073BCA1 /* mag_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mag_sel.png; sourceTree = "<group>"; };
+		780E9648148BC9E90073BCA1 /* nomatches.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = nomatches.html; sourceTree = "<group>"; };
+		780E9649148BC9E90073BCA1 /* search.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = search.css; sourceTree = "<group>"; };
+		780E964A148BC9E90073BCA1 /* search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search.js; sourceTree = "<group>"; };
+		780E964B148BC9E90073BCA1 /* search_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_l.png; sourceTree = "<group>"; };
+		780E964C148BC9E90073BCA1 /* search_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_m.png; sourceTree = "<group>"; };
+		780E964D148BC9E90073BCA1 /* search_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_r.png; sourceTree = "<group>"; };
+		780E964E148BC9E90073BCA1 /* tab_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_a.png; sourceTree = "<group>"; };
+		780E964F148BC9E90073BCA1 /* tab_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_b.png; sourceTree = "<group>"; };
+		780E9650148BC9E90073BCA1 /* tab_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_h.png; sourceTree = "<group>"; };
+		780E9651148BC9E90073BCA1 /* tab_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_s.png; sourceTree = "<group>"; };
+		780E9652148BC9E90073BCA1 /* tabs.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tabs.css; sourceTree = "<group>"; };
 		7858E144148AEF8F0088D3D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7858E147148AEF8F0088D3D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7858E14A148AEF8F0088D3D0 /* GnuplotObjc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GnuplotObjc-Prefix.pch"; sourceTree = "<group>"; };
-		7858E152148AEFAD0088D3D0 /* GnuplotSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GnuplotSession.h; path = ../GnuplotObjc/GnuplotSession.h; sourceTree = "<group>"; };
-		7858E153148AEFAD0088D3D0 /* GnuplotSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GnuplotSession.m; path = ../GnuplotObjc/GnuplotSession.m; sourceTree = "<group>"; };
-		78FA484C148BB22900C76909 /* liblibGnuplotObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibGnuplotObjc.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FA484D148BB22900C76909 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		78FA4850148BB22900C76909 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		78FA4851148BB22900C76909 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		78FA4852148BB22900C76909 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		78FA4855148BB22900C76909 /* libGnuplotObjc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libGnuplotObjc-Prefix.pch"; sourceTree = "<group>"; };
 		78FA485D148BB33600C76909 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7858E13D148AEF8F0088D3D0 /* Frameworks */ = {
+		780E95F5148BC06F0073BCA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7858E145148AEF8F0088D3D0 /* Foundation.framework in Frameworks */,
+				780E95F9148BC0700073BCA1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78FA4849148BB22900C76909 /* Frameworks */ = {
+		780E9609148BC1B60073BCA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78FA484E148BB22900C76909 /* Cocoa.framework in Frameworks */,
+				780E9619148BC45C0073BCA1 /* libGnuPlotObjc.a in Frameworks */,
+				780E960E148BC1B60073BCA1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		780E95FA148BC0700073BCA1 /* GnuPlotObjc */ = {
+			isa = PBXGroup;
+			children = (
+				780E9604148BC0D50073BCA1 /* GnuplotSession.h */,
+				780E9605148BC0D50073BCA1 /* GnuplotSession.m */,
+				780E95FB148BC0700073BCA1 /* Supporting Files */,
+			);
+			path = GnuPlotObjc;
+			sourceTree = "<group>";
+		};
+		780E95FB148BC0700073BCA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				780E95FC148BC0700073BCA1 /* GnuPlotObjc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		780E960F148BC1B60073BCA1 /* Exemple */ = {
+			isa = PBXGroup;
+			children = (
+				780E9610148BC1B60073BCA1 /* main.m */,
+				780E9614148BC1B60073BCA1 /* Exemple.1 */,
+				780E9612148BC1B60073BCA1 /* Supporting Files */,
+			);
+			path = Exemple;
+			sourceTree = "<group>";
+		};
+		780E9612148BC1B60073BCA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				780E9613148BC1B60073BCA1 /* Exemple-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		780E961A148BC9E90073BCA1 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				780E961B148BC9E90073BCA1 /* Doxyfile */,
+				780E961C148BC9E90073BCA1 /* html */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		780E961C148BC9E90073BCA1 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				780E961D148BC9E90073BCA1 /* _gnuplot_session_8h_source.html */,
+				780E961E148BC9E90073BCA1 /* annotated.html */,
+				780E961F148BC9E90073BCA1 /* bc_s.png */,
+				780E9620148BC9E90073BCA1 /* class_gnuplot_session-members.html */,
+				780E9621148BC9E90073BCA1 /* classes.html */,
+				780E9622148BC9E90073BCA1 /* closed.png */,
+				780E9623148BC9E90073BCA1 /* doxygen.css */,
+				780E9624148BC9E90073BCA1 /* doxygen.png */,
+				780E9625148BC9E90073BCA1 /* files.html */,
+				780E9626148BC9E90073BCA1 /* functions.html */,
+				780E9627148BC9E90073BCA1 /* functions_func.html */,
+				780E9628148BC9E90073BCA1 /* index.html */,
+				780E9629148BC9E90073BCA1 /* installdox */,
+				780E962A148BC9E90073BCA1 /* interface_gnuplot_session.html */,
+				780E962B148BC9E90073BCA1 /* jquery.js */,
+				780E962C148BC9E90073BCA1 /* nav_f.png */,
+				780E962D148BC9E90073BCA1 /* nav_h.png */,
+				780E962E148BC9E90073BCA1 /* open.png */,
+				780E962F148BC9E90073BCA1 /* search */,
+				780E964E148BC9E90073BCA1 /* tab_a.png */,
+				780E964F148BC9E90073BCA1 /* tab_b.png */,
+				780E9650148BC9E90073BCA1 /* tab_h.png */,
+				780E9651148BC9E90073BCA1 /* tab_s.png */,
+				780E9652148BC9E90073BCA1 /* tabs.css */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		780E962F148BC9E90073BCA1 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				780E9630148BC9E90073BCA1 /* all_64.html */,
+				780E9631148BC9E90073BCA1 /* all_64.js */,
+				780E9632148BC9E90073BCA1 /* all_65.html */,
+				780E9633148BC9E90073BCA1 /* all_65.js */,
+				780E9634148BC9E90073BCA1 /* all_67.html */,
+				780E9635148BC9E90073BCA1 /* all_67.js */,
+				780E9636148BC9E90073BCA1 /* all_69.html */,
+				780E9637148BC9E90073BCA1 /* all_69.js */,
+				780E9638148BC9E90073BCA1 /* all_73.html */,
+				780E9639148BC9E90073BCA1 /* all_73.js */,
+				780E963A148BC9E90073BCA1 /* classes_67.html */,
+				780E963B148BC9E90073BCA1 /* classes_67.js */,
+				780E963C148BC9E90073BCA1 /* close.png */,
+				780E963D148BC9E90073BCA1 /* functions_64.html */,
+				780E963E148BC9E90073BCA1 /* functions_64.js */,
+				780E963F148BC9E90073BCA1 /* functions_65.html */,
+				780E9640148BC9E90073BCA1 /* functions_65.js */,
+				780E9641148BC9E90073BCA1 /* functions_67.html */,
+				780E9642148BC9E90073BCA1 /* functions_67.js */,
+				780E9643148BC9E90073BCA1 /* functions_69.html */,
+				780E9644148BC9E90073BCA1 /* functions_69.js */,
+				780E9645148BC9E90073BCA1 /* functions_73.html */,
+				780E9646148BC9E90073BCA1 /* functions_73.js */,
+				780E9647148BC9E90073BCA1 /* mag_sel.png */,
+				780E9648148BC9E90073BCA1 /* nomatches.html */,
+				780E9649148BC9E90073BCA1 /* search.css */,
+				780E964A148BC9E90073BCA1 /* search.js */,
+				780E964B148BC9E90073BCA1 /* search_l.png */,
+				780E964C148BC9E90073BCA1 /* search_m.png */,
+				780E964D148BC9E90073BCA1 /* search_r.png */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
 		7858E135148AEF8F0088D3D0 = {
 			isa = PBXGroup;
 			children = (
+				780E961A148BC9E90073BCA1 /* Documentation */,
 				78FA485D148BB33600C76909 /* README */,
-				78FA485C148BB2BE00C76909 /* Documentation */,
-				7858E146148AEF8F0088D3D0 /* Exemple */,
-				78FA4853148BB22900C76909 /* libGnuplotObjc */,
+				780E95FA148BC0700073BCA1 /* GnuPlotObjc */,
+				780E960F148BC1B60073BCA1 /* Exemple */,
 				7858E143148AEF8F0088D3D0 /* Frameworks */,
 				7858E141148AEF8F0088D3D0 /* Products */,
 			);
@@ -76,8 +262,8 @@
 		7858E141148AEF8F0088D3D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7858E140148AEF8F0088D3D0 /* GnuplotObjc */,
-				78FA484C148BB22900C76909 /* liblibGnuplotObjc.a */,
+				780E95F8148BC06F0073BCA1 /* libGnuPlotObjc.a */,
+				780E960C148BC1B60073BCA1 /* Exemple */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,24 +278,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7858E146148AEF8F0088D3D0 /* Exemple */ = {
-			isa = PBXGroup;
-			children = (
-				7858E147148AEF8F0088D3D0 /* main.m */,
-				7858E149148AEF8F0088D3D0 /* Supporting Files */,
-			);
-			name = Exemple;
-			path = GnuplotObjc;
-			sourceTree = "<group>";
-		};
-		7858E149148AEF8F0088D3D0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7858E14A148AEF8F0088D3D0 /* GnuplotObjc-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		78FA484F148BB22900C76909 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,77 +288,53 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		78FA4853148BB22900C76909 /* libGnuplotObjc */ = {
-			isa = PBXGroup;
-			children = (
-				7858E152148AEFAD0088D3D0 /* GnuplotSession.h */,
-				7858E153148AEFAD0088D3D0 /* GnuplotSession.m */,
-				78FA4854148BB22900C76909 /* Supporting Files */,
-			);
-			path = libGnuplotObjc;
-			sourceTree = "<group>";
-		};
-		78FA4854148BB22900C76909 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				78FA4855148BB22900C76909 /* libGnuplotObjc-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		78FA485C148BB2BE00C76909 /* Documentation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Documentation;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		78FA484A148BB22900C76909 /* Headers */ = {
+		780E95F6148BC06F0073BCA1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780E9606148BC0D50073BCA1 /* GnuplotSession.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7858E13F148AEF8F0088D3D0 /* exemple */ = {
+		780E95F7148BC06F0073BCA1 /* GnuPlotObjc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7858E14F148AEF8F0088D3D0 /* Build configuration list for PBXNativeTarget "exemple" */;
+			buildConfigurationList = 780E9602148BC0700073BCA1 /* Build configuration list for PBXNativeTarget "GnuPlotObjc" */;
 			buildPhases = (
-				7858E13C148AEF8F0088D3D0 /* Sources */,
-				7858E13D148AEF8F0088D3D0 /* Frameworks */,
-				7858E13E148AEF8F0088D3D0 /* CopyFiles */,
+				780E95F4148BC06F0073BCA1 /* Sources */,
+				780E95F5148BC06F0073BCA1 /* Frameworks */,
+				780E95F6148BC06F0073BCA1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = exemple;
-			productName = GnuplotObjc;
-			productReference = 7858E140148AEF8F0088D3D0 /* GnuplotObjc */;
-			productType = "com.apple.product-type.tool";
-		};
-		78FA484B148BB22900C76909 /* libGnuplotObjc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78FA4859148BB22900C76909 /* Build configuration list for PBXNativeTarget "libGnuplotObjc" */;
-			buildPhases = (
-				78FA4848148BB22900C76909 /* Sources */,
-				78FA4849148BB22900C76909 /* Frameworks */,
-				78FA484A148BB22900C76909 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = libGnuplotObjc;
-			productName = libGnuplotObjc;
-			productReference = 78FA484C148BB22900C76909 /* liblibGnuplotObjc.a */;
+			name = GnuPlotObjc;
+			productName = GnuPlotObjc;
+			productReference = 780E95F8148BC06F0073BCA1 /* libGnuPlotObjc.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		780E960B148BC1B60073BCA1 /* Exemple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780E9616148BC1B60073BCA1 /* Build configuration list for PBXNativeTarget "Exemple" */;
+			buildPhases = (
+				780E9608148BC1B60073BCA1 /* Sources */,
+				780E9609148BC1B60073BCA1 /* Frameworks */,
+				780E960A148BC1B60073BCA1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Exemple;
+			productName = Exemple;
+			productReference = 780E960C148BC1B60073BCA1 /* Exemple */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -213,37 +357,92 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7858E13F148AEF8F0088D3D0 /* exemple */,
-				78FA484B148BB22900C76909 /* libGnuplotObjc */,
+				780E95F7148BC06F0073BCA1 /* GnuPlotObjc */,
+				780E960B148BC1B60073BCA1 /* Exemple */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7858E13C148AEF8F0088D3D0 /* Sources */ = {
+		780E95F4148BC06F0073BCA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7858E148148AEF8F0088D3D0 /* main.m in Sources */,
-				7858E154148AEFAD0088D3D0 /* GnuplotSession.m in Sources */,
+				780E9607148BC0D50073BCA1 /* GnuplotSession.m in Sources */,
+				780E9653148BC9EA0073BCA1 /* jquery.js in Sources */,
+				780E9654148BC9EA0073BCA1 /* all_64.js in Sources */,
+				780E9655148BC9EA0073BCA1 /* all_65.js in Sources */,
+				780E9656148BC9EA0073BCA1 /* all_67.js in Sources */,
+				780E9657148BC9EA0073BCA1 /* all_69.js in Sources */,
+				780E9658148BC9EA0073BCA1 /* all_73.js in Sources */,
+				780E9659148BC9EA0073BCA1 /* classes_67.js in Sources */,
+				780E965A148BC9EA0073BCA1 /* functions_64.js in Sources */,
+				780E965B148BC9EA0073BCA1 /* functions_65.js in Sources */,
+				780E965C148BC9EA0073BCA1 /* functions_67.js in Sources */,
+				780E965D148BC9EA0073BCA1 /* functions_69.js in Sources */,
+				780E965E148BC9EA0073BCA1 /* functions_73.js in Sources */,
+				780E965F148BC9EA0073BCA1 /* search.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78FA4848148BB22900C76909 /* Sources */ = {
+		780E9608148BC1B60073BCA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780E9611148BC1B60073BCA1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		780E9600148BC0700073BCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GnuPlotObjc/GnuPlotObjc-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		780E9601148BC0700073BCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GnuPlotObjc/GnuPlotObjc-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		780E9617148BC1B60073BCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exemple/Exemple-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "-Lbuild/Debug/libGnuPlotObjc.a";
+			};
+			name = Debug;
+		};
+		780E9618148BC1B60073BCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exemple/Exemple-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "-Lbuild/Debug/libGnuPlotObjc.a";
+			};
+			name = Release;
+		};
 		7858E14D148AEF8F0088D3D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -260,8 +459,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -270,7 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -281,50 +480,33 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		7858E150148AEF8F0088D3D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GnuplotObjc/GnuplotObjc-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		7858E151148AEF8F0088D3D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GnuplotObjc/GnuplotObjc-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		78FA485A148BB22900C76909 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libGnuplotObjc/libGnuplotObjc-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		78FA485B148BB22900C76909 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libGnuplotObjc/libGnuplotObjc-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		780E9602148BC0700073BCA1 /* Build configuration list for PBXNativeTarget "GnuPlotObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780E9600148BC0700073BCA1 /* Debug */,
+				780E9601148BC0700073BCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		780E9616148BC1B60073BCA1 /* Build configuration list for PBXNativeTarget "Exemple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780E9617148BC1B60073BCA1 /* Debug */,
+				780E9618148BC1B60073BCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		7858E13A148AEF8F0088D3D0 /* Build configuration list for PBXProject "GnuplotObjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -332,24 +514,7 @@
 				7858E14E148AEF8F0088D3D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7858E14F148AEF8F0088D3D0 /* Build configuration list for PBXNativeTarget "exemple" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7858E150148AEF8F0088D3D0 /* Debug */,
-				7858E151148AEF8F0088D3D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78FA4859148BB22900C76909 /* Build configuration list for PBXNativeTarget "libGnuplotObjc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78FA485A148BB22900C76909 /* Debug */,
-				78FA485B148BB22900C76909 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

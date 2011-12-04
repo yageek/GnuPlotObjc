@@ -32,7 +32,7 @@
 -(id)init;
 /**
  * Exec the command in the current session
- * @param The command to execute
+ * @param cmd The command to execute
  */
 -(void)exec:(NSString*)cmd,... NS_FORMAT_FUNCTION(1, 2);
 
@@ -53,7 +53,7 @@
 +(NSString*)gnuplot_path;
 /**
  * Set the current value of the Gnuplot path
- * @param The value to assign
+ * @param path The value to assign
  */
 +(void)set_gnuplot_path:(NSString*)path;
 
