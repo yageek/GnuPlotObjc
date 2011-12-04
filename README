@@ -1,0 +1,13 @@
+Copyright 2011 YaGeek
+This program is licensed under the GPLv2
+
+=== libGnuplotObjc ===
+This library coudl be used in Objective-C program to interact with gnuplot
+
+
+== User Manual ==
+The gnuplot binary has to be set in PATH to use the library
+
+== Releases ==
+
+* 0.0.1 First Release
