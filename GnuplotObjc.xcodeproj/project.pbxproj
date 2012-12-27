@@ -12,7 +12,6 @@
 		780E9607148BC0D50073BCA1 /* GnuplotSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 780E9605148BC0D50073BCA1 /* GnuplotSession.m */; };
 		780E960E148BC1B60073BCA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7858E144148AEF8F0088D3D0 /* Foundation.framework */; };
 		780E9611148BC1B60073BCA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 780E9610148BC1B60073BCA1 /* main.m */; };
-		780E9615148BC1B60073BCA1 /* Exemple.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 780E9614148BC1B60073BCA1 /* Exemple.1 */; };
 		780E9619148BC45C0073BCA1 /* libGnuPlotObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 780E95F8148BC06F0073BCA1 /* libGnuPlotObjc.a */; };
 		780E9653148BC9EA0073BCA1 /* jquery.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E962B148BC9E90073BCA1 /* jquery.js */; };
 		780E9654148BC9EA0073BCA1 /* all_64.js in Sources */ = {isa = PBXBuildFile; fileRef = 780E9631148BC9E90073BCA1 /* all_64.js */; };
@@ -36,7 +35,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				780E9615148BC1B60073BCA1 /* Exemple.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -50,7 +48,6 @@
 		780E960C148BC1B60073BCA1 /* Exemple */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exemple; sourceTree = BUILT_PRODUCTS_DIR; };
 		780E9610148BC1B60073BCA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		780E9613148BC1B60073BCA1 /* Exemple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exemple-Prefix.pch"; sourceTree = "<group>"; };
-		780E9614148BC1B60073BCA1 /* Exemple.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Exemple.1; sourceTree = "<group>"; };
 		780E961B148BC9E90073BCA1 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
 		780E961D148BC9E90073BCA1 /* _gnuplot_session_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = _gnuplot_session_8h_source.html; sourceTree = "<group>"; };
 		780E961E148BC9E90073BCA1 /* annotated.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = annotated.html; sourceTree = "<group>"; };
@@ -156,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				780E9610148BC1B60073BCA1 /* main.m */,
-				780E9614148BC1B60073BCA1 /* Exemple.1 */,
 				780E9612148BC1B60073BCA1 /* Supporting Files */,
 			);
 			path = Exemple;

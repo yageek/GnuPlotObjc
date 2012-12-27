@@ -104,14 +104,16 @@ static NSString *gnuplot_path=nil;
 #ifdef DEBUG
     NSLog(@"Execute Commande : %@",arg_cmd);
 #endif
-    NSString *cmdline =[NSString stringWithFormat:@"%@;\n",arg_cmd];
+    NSString *cmdline = [NSString stringWithFormat:@"%@;\n",arg_cmd] ;
     [inhandle writeData:[cmdline dataUsingEncoding:NSUTF8StringEncoding]];
+    [arg_cmd release];
 }
 -(void)dealloc{
 #ifdef DEBUG
     NSLog(@"Deallocing %@",self);
 #endif
     [inhandle closeFile];
+    [inhandle dealloc];
     [super dealloc];
 }
 @end
