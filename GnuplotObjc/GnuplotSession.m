@@ -101,6 +101,7 @@ static NSString *gnuplot_path=nil;
     va_list arguments;
     va_start(arguments,cmd);
     NSString *arg_cmd = [[NSString alloc] initWithFormat:cmd arguments:arguments];
+    va_end(arguments);
 #ifdef DEBUG
     NSLog(@"Execute Commande : %@",arg_cmd);
 #endif
