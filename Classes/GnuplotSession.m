@@ -18,30 +18,16 @@ static NSString *gnuplot_path=nil;
 +(BOOL)setupGnuplot{
     NSString *found_path = nil;
     
-    NSString *path_env = [NSString stringWithFormat:@"%s",getenv("PATH")];
+    NSString *path_env = @(getenv("PATH"));
     NSArray * search_paths = [path_env componentsSeparatedByString:@":"];
     
     NSFileManager *manager = [NSFileManager defaultManager];
-    for(NSString *look_path in search_paths){
-        
-        NSError *error;
-        NSArray * file_array = [manager contentsOfDirectoryAtPath:look_path error:&error];
-        
-        if(file_array == nil){
-            NSLog(@" Error to access to %@ :%@",look_path,error);
-            break; //go to next path
-        }
-        
-        for(NSString *file in file_array){
-            if([file isEqualToString:@"gnuplot"]){
-                if([manager isExecutableFileAtPath:[NSString stringWithFormat:@"%@/%@",look_path,file]]){
-                    found_path = [NSString stringWithFormat:@"%@/%@",look_path,file];
-                    break;
-                }
-            }
-        }
-        
-        if(found_path!=nil){ //Stop if found
+    for(NSString *look_path in search_paths)
+    {
+        NSString * path = [look_path stringByAppendingPathComponent:@"gnuplot"];
+        if([manager isExecutableFileAtPath:path])
+        {
+            found_path = [path copy];
             break;
         }
     }
