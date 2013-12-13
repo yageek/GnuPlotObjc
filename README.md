@@ -1,4 +1,3 @@
-
 #GnuplotObjc
 This library could be used in Objective-C program to interact with gnuplot
 
@@ -8,7 +7,7 @@ The gnuplot binary has to be set in PATH to use the library
 
 ### Releases 
 
-* 0.0.1 First Release
+* 1.0.0 First Release
 
 
 Copyright 2011 YaGeek
