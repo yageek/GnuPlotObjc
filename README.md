@@ -8,7 +8,3 @@ The gnuplot binary has to be set in PATH to use the library
 ### Releases 
 
 * 1.0.0 First Release
-
-
-Copyright 2011 YaGeek
-This program is licensed under the GPLv2
